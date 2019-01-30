@@ -38,16 +38,32 @@ main {
 }
 
 section {
-    background: rgba(221, 51, 102, 0.42);
+    background: #bdbdbd;
+    color: #000;
     width: 80%;
 }
 
+section header {
+    background: #9e9e9e;
+    padding: 2rem;
+    text-align: center;
+}
+
 article {
-    background: #d36;
+    background: #757575;
+    padding: 3rem 5rem;
+    line-height: 1.8;
+}
+
+article h3 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0;
+    font-weight: 300;
 }
 
 footer {
-    background: #9f3152
+    background: #616161;
 }
 
 aside {
